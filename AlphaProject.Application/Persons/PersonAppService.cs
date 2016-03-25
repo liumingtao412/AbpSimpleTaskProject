@@ -41,7 +41,7 @@ namespace AlphaProject.Persons
 
         public GetPersonsOutput GetPersons(GetPersonsInput input)
         {
-            Logger.Info("Updating a task for input:" + input);
+            Logger.Info("Getting Persons for input:" + input);
 
             var persons = _personRepository.GetAll();
             if (!string.IsNullOrEmpty(input.Name))
