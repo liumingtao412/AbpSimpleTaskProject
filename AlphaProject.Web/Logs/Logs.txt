@@ -2561,3 +2561,309 @@ INFO  2016-03-25 17:04:39,508 [49   ] AlphaProject.Persons.PersonAppService    -
 INFO  2016-03-25 17:05:10,171 [6    ] AlphaProject.Persons.PersonAppService    - Updating a task for input:[GetPersonsInput > Name = George Orwell]
 INFO  2016-03-25 17:05:51,764 [50   ] AlphaProject.Persons.PersonAppService    - Updating a task for input:[GetPersonsInput > Name = George Orwell]
 DEBUG 2016-03-25 17:07:14,689 [gator] Hangfire.SqlServer.CountersAggregator    - Aggregating records in 'Counter' table...
+DEBUG 2016-03-25 23:29:45,667 [1    ] Abp.Modules.AbpModuleManager             - Loading Abp modules...
+DEBUG 2016-03-25 23:29:49,869 [1    ] Abp.Modules.AbpModuleManager             - Found 16 ABP modules in total.
+DEBUG 2016-03-25 23:29:49,875 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AutoMapper.AbpAutoMapperModule, Abp.AutoMapper, Version=0.8.2.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-03-25 23:29:49,877 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AbpKernelModule, Abp, Version=0.8.2.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-03-25 23:29:49,877 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFramework.AbpEntityFrameworkModule, Abp.EntityFramework, Version=0.8.2.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-03-25 23:29:49,878 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Hangfire.AbpHangfireModule, Abp.HangFire, Version=0.8.2.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-03-25 23:29:49,878 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Owin.AbpOwinModule, Abp.Owin, Version=0.8.2.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-03-25 23:29:49,878 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.WebApi.AbpWebApiModule, Abp.Web.Api, Version=0.8.2.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-03-25 23:29:49,878 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebModule, Abp.Web, Version=0.8.2.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-03-25 23:29:49,878 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.Mvc.AbpWebMvcModule, Abp.Web.Mvc, Version=0.8.2.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-03-25 23:29:49,878 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.SignalR.AbpWebSignalRModule, Abp.Web.SignalR, Version=0.8.2.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-03-25 23:29:49,879 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.AbpZeroCoreModule, Abp.Zero, Version=0.8.2.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-03-25 23:29:49,879 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.EntityFramework.AbpZeroEntityFrameworkModule, Abp.Zero.EntityFramework, Version=0.8.2.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-03-25 23:29:49,879 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: AlphaProject.AlphaProjectApplicationModule, AlphaProject.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-03-25 23:29:49,879 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: AlphaProject.AlphaProjectCoreModule, AlphaProject.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-03-25 23:29:49,879 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: AlphaProject.AlphaProjectDataModule, AlphaProject.EntityFramework, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-03-25 23:29:49,879 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: AlphaProject.Web.AlphaProjectWebModule, AlphaProject.Web, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-03-25 23:29:49,879 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: AlphaProject.Api.AlphaProjectWebApiModule, AlphaProject.WebApi, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-03-25 23:29:49,885 [1    ] Abp.Modules.AbpModuleManager             - 16 modules loaded.
+DEBUG 2016-03-25 23:29:49,955 [1    ] o.Configuration.LanguageManagementConfig - Converted Abp (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2016-03-25 23:29:49,955 [1    ] o.Configuration.LanguageManagementConfig - Converted AbpWeb (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2016-03-25 23:29:49,956 [1    ] o.Configuration.LanguageManagementConfig - Converted AbpZero (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2016-03-25 23:29:49,956 [1    ] o.Configuration.LanguageManagementConfig - Converted AlphaProject (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+INFO  2016-03-25 23:29:52,431 [1    ] Hangfire.SqlServer.SqlServerStorage      - Start installing Hangfire SQL objects...
+INFO  2016-03-25 23:29:52,760 [1    ] Hangfire.SqlServer.SqlServerStorage      - Hangfire SQL objects installed.
+DEBUG 2016-03-25 23:29:57,946 [1    ] Abp.Localization.LocalizationManager     - Initializing 4 localization sources.
+DEBUG 2016-03-25 23:29:57,962 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: Abp
+DEBUG 2016-03-25 23:29:57,964 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpWeb
+DEBUG 2016-03-25 23:29:57,966 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpZero
+DEBUG 2016-03-25 23:29:57,967 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AlphaProject
+DEBUG 2016-03-25 23:29:57,977 [1    ] bp.Hangfire.HangfireBackgroundJobManager - Start background worker: Abp.Hangfire.HangfireBackgroundJobManager
+INFO  2016-03-25 23:29:58,000 [1    ] Hangfire.BackgroundJobServer             - Starting Hangfire Server
+INFO  2016-03-25 23:29:58,004 [1    ] Hangfire.BackgroundJobServer             - Using job storage: 'SQL Server: (localdb)\MSSQLLocalDB@SimpleTaskProject'.
+INFO  2016-03-25 23:29:58,004 [1    ] Hangfire.BackgroundJobServer             - Using the following options for SQL Server job storage:
+INFO  2016-03-25 23:29:58,005 [1    ] Hangfire.BackgroundJobServer             -     Queue poll interval: 00:00:15.
+INFO  2016-03-25 23:29:58,005 [1    ] Hangfire.BackgroundJobServer             - Using the following options for Hangfire Server:
+INFO  2016-03-25 23:29:58,005 [1    ] Hangfire.BackgroundJobServer             -     Worker count: 20.
+INFO  2016-03-25 23:29:58,005 [1    ] Hangfire.BackgroundJobServer             -     Listening queues: 'default'.
+INFO  2016-03-25 23:29:58,005 [1    ] Hangfire.BackgroundJobServer             -     Shutdown timeout: 00:00:15.
+INFO  2016-03-25 23:29:58,005 [1    ] Hangfire.BackgroundJobServer             -     Schedule polling interval: 00:00:15.
+DEBUG 2016-03-25 23:29:58,061 [erver] ngfire.Server.BackgroundProcessingServer - Background process 'BackgroundProcessingServer' started.
+DEBUG 2016-03-25 23:29:58,676 [tbeat] Hangfire.Server.ServerHeartbeat          - Background process 'ServerHeartbeat' started.
+DEBUG 2016-03-25 23:29:58,711 [chdog] Hangfire.Server.ServerWatchdog           - Background process 'ServerWatchdog' started.
+DEBUG 2016-03-25 23:29:58,739 [nager] Hangfire.SqlServer.ExpirationManager     - Background process 'Hangfire.SqlServer.ExpirationManager' started.
+INFO  2016-03-25 23:29:58,740 [chdog] Hangfire.Server.ServerWatchdog           - 1 servers were removed due to timeout
+DEBUG 2016-03-25 23:29:58,745 [nager] Hangfire.SqlServer.ExpirationManager     - Removing outdated records from table 'AggregatedCounter'...
+DEBUG 2016-03-25 23:29:58,762 [gator] Hangfire.SqlServer.CountersAggregator    - Background process 'Hangfire.SqlServer.CountersAggregator' started.
+DEBUG 2016-03-25 23:29:58,773 [gator] Hangfire.SqlServer.CountersAggregator    - Aggregating records in 'Counter' table...
+DEBUG 2016-03-25 23:29:58,787 [a2d97] Hangfire.Server.Worker                   - Background process 'Worker #c08a2d97' started.
+DEBUG 2016-03-25 23:29:58,823 [7ed40] Hangfire.Server.Worker                   - Background process 'Worker #e3b7ed40' started.
+DEBUG 2016-03-25 23:29:58,824 [644f4] Hangfire.Server.Worker                   - Background process 'Worker #1b7644f4' started.
+DEBUG 2016-03-25 23:29:58,837 [1e4b2] Hangfire.Server.Worker                   - Background process 'Worker #c811e4b2' started.
+DEBUG 2016-03-25 23:29:58,891 [7eafd] Hangfire.Server.Worker                   - Background process 'Worker #1447eafd' started.
+DEBUG 2016-03-25 23:29:58,894 [cd1b9] Hangfire.Server.Worker                   - Background process 'Worker #19bcd1b9' started.
+DEBUG 2016-03-25 23:29:58,901 [2744e] Hangfire.Server.Worker                   - Background process 'Worker #ac52744e' started.
+DEBUG 2016-03-25 23:29:58,919 [nager] Hangfire.SqlServer.ExpirationManager     - Removing outdated records from table 'Job'...
+DEBUG 2016-03-25 23:29:58,919 [f6903] Hangfire.Server.Worker                   - Background process 'Worker #55ff6903' started.
+DEBUG 2016-03-25 23:29:58,935 [a9d31] Hangfire.Server.Worker                   - Background process 'Worker #2fda9d31' started.
+DEBUG 2016-03-25 23:29:58,958 [c89d9] Hangfire.Server.Worker                   - Background process 'Worker #62dc89d9' started.
+DEBUG 2016-03-25 23:29:58,969 [73fdf] Hangfire.Server.Worker                   - Background process 'Worker #28b73fdf' started.
+DEBUG 2016-03-25 23:29:58,992 [303fc] Hangfire.Server.Worker                   - Background process 'Worker #b25303fc' started.
+DEBUG 2016-03-25 23:29:59,021 [c3c7d] Hangfire.Server.Worker                   - Background process 'Worker #b07c3c7d' started.
+DEBUG 2016-03-25 23:29:59,029 [5efa6] Hangfire.Server.Worker                   - Background process 'Worker #6695efa6' started.
+DEBUG 2016-03-25 23:29:59,037 [nager] Hangfire.SqlServer.ExpirationManager     - Removing outdated records from table 'List'...
+DEBUG 2016-03-25 23:29:59,045 [nager] Hangfire.SqlServer.ExpirationManager     - Removing outdated records from table 'Set'...
+DEBUG 2016-03-25 23:29:59,048 [d1ffc] Hangfire.Server.Worker                   - Background process 'Worker #750d1ffc' started.
+DEBUG 2016-03-25 23:29:59,076 [b0329] Hangfire.Server.Worker                   - Background process 'Worker #d50b0329' started.
+DEBUG 2016-03-25 23:29:59,078 [5a0a3] Hangfire.Server.Worker                   - Background process 'Worker #8b75a0a3' started.
+DEBUG 2016-03-25 23:29:59,083 [1a9ac] Hangfire.Server.Worker                   - Background process 'Worker #6181a9ac' started.
+DEBUG 2016-03-25 23:29:59,091 [nager] Hangfire.SqlServer.ExpirationManager     - Removing outdated records from table 'Hash'...
+DEBUG 2016-03-25 23:29:59,094 [0f30e] Hangfire.Server.Worker                   - Background process 'Worker #d0b0f30e' started.
+DEBUG 2016-03-25 23:29:59,105 [241cd] Hangfire.Server.Worker                   - Background process 'Worker #6de241cd' started.
+DEBUG 2016-03-25 23:29:59,112 [duler] Hangfire.Server.DelayedJobScheduler      - Background process 'DelayedJobScheduler' started.
+DEBUG 2016-03-25 23:29:59,121 [duler] Hangfire.Server.RecurringJobScheduler    - Background process 'RecurringJobScheduler' started.
+DEBUG 2016-03-25 23:30:02,087 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Found 5 classes defines auto mapping attributes
+DEBUG 2016-03-25 23:30:02,087 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - AlphaProject.Sessions.Dto.TenantLoginInfoDto
+DEBUG 2016-03-25 23:30:02,430 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - AlphaProject.Sessions.Dto.UserLoginInfoDto
+DEBUG 2016-03-25 23:30:02,444 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - AlphaProject.Persons.Dtos.PersonDto
+DEBUG 2016-03-25 23:30:02,447 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - AlphaProject.MultiTenancy.Dto.TenantListDto
+DEBUG 2016-03-25 23:30:02,450 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - AlphaProject.Web.Models.Account.TenantSelectionViewModel+TenantInfo
+DEBUG 2016-03-25 23:30:02,519 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'AlphaProject.Sessions.ISessionAppService' with service name 'app/session'.
+DEBUG 2016-03-25 23:30:02,522 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'AlphaProject.Users.IUserAppService' with service name 'app/user'.
+DEBUG 2016-03-25 23:30:02,524 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'AlphaProject.Tasks.ITaskAppService' with service name 'app/task'.
+DEBUG 2016-03-25 23:30:02,526 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'AlphaProject.Roles.IRoleAppService' with service name 'app/role'.
+DEBUG 2016-03-25 23:30:02,528 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'AlphaProject.Persons.IPersonAppService' with service name 'app/person'.
+DEBUG 2016-03-25 23:30:02,530 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'AlphaProject.MultiTenancy.ITenantAppService' with service name 'app/tenant'.
+DEBUG 2016-03-25 23:30:33,533 [7    ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is connected: {"ConnectionId":"3b69d021-bb15-4b52-b86e-009306aab501","IpAddress":"::1","TenantId":1,"UserId":null,"ConnectTime":"2016-03-25T23:30:33.5137759+08:00","Properties":{}}
+DEBUG 2016-03-25 23:30:33,605 [38   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is registered: 3b69d021-bb15-4b52-b86e-009306aab501
+INFO  2016-03-25 23:31:18,546 [5    ] AlphaProject.Persons.PersonAppService    - Updating a task for input:[GetPersonsInput > Name = George Orwell]
+INFO  2016-03-25 23:31:32,304 [44   ] AlphaProject.Persons.PersonAppService    - Updating a task for input:[GetPersonsInput > Name = George Orwell]
+DEBUG 2016-03-25 23:34:58,995 [gator] Hangfire.SqlServer.CountersAggregator    - Aggregating records in 'Counter' table...
+DEBUG 2016-03-25 23:39:59,027 [gator] Hangfire.SqlServer.CountersAggregator    - Aggregating records in 'Counter' table...
+DEBUG 2016-03-25 23:44:59,046 [gator] Hangfire.SqlServer.CountersAggregator    - Aggregating records in 'Counter' table...
+DEBUG 2016-03-25 23:49:59,084 [gator] Hangfire.SqlServer.CountersAggregator    - Aggregating records in 'Counter' table...
+DEBUG 2016-03-25 23:54:59,106 [gator] Hangfire.SqlServer.CountersAggregator    - Aggregating records in 'Counter' table...
+DEBUG 2016-03-25 23:59:59,136 [gator] Hangfire.SqlServer.CountersAggregator    - Aggregating records in 'Counter' table...
+WARN  2016-03-26 00:00:11,358 [122  ] roject.Web.Controllers.AccountController - 部分输入信息不符合要求，请检查并改正..
+Abp.UI.UserFriendlyException: 部分输入信息不符合要求，请检查并改正..
+   在 AlphaProject.Web.Controllers.AlphaProjectControllerBase.CheckModelState() 位置 F:\My Study\ABP\AbpSimpleTaskProject\AlphaProject.Web\Controllers\AlphaProjectControllerBase.cs:行号 22
+   在 Castle.Proxies.AccountControllerProxy.CheckModelState_callback()
+   在 Castle.Proxies.Invocations.AlphaProjectControllerBase_CheckModelState.InvokeMethodOnTarget()
+   在 Castle.DynamicProxy.AbstractInvocation.Proceed()
+   在 Abp.Domain.Uow.UnitOfWorkInterceptor.Intercept(IInvocation invocation)
+   在 Castle.DynamicProxy.AbstractInvocation.Proceed()
+   在 Castle.Proxies.AccountControllerProxy.CheckModelState()
+   在 AlphaProject.Web.Controllers.AccountController.<Login>d__9.MoveNext() 位置 F:\My Study\ABP\AbpSimpleTaskProject\AlphaProject.Web\Controllers\AccountController.cs:行号 80
+--- 引发异常的上一位置中堆栈跟踪的末尾 ---
+   在 System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter.GetResult()
+   在 System.Threading.Tasks.TaskHelpersExtensions.ThrowIfFaulted(Task task)
+   在 System.Web.Mvc.Async.TaskAsyncActionDescriptor.EndExecute(IAsyncResult asyncResult)
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass37.<BeginInvokeAsynchronousActionMethod>b__36(IAsyncResult asyncResult)
+   在 System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResult`1.CallEndDelegate(IAsyncResult asyncResult)
+   在 System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResultBase`1.End()
+   在 System.Web.Mvc.Async.AsyncResultWrapper.End[TResult](IAsyncResult asyncResult, Object tag)
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.EndInvokeActionMethod(IAsyncResult asyncResult)
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.AsyncInvocationWithFilters.<InvokeActionMethodFilterAsynchronouslyRecursive>b__3d()
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.AsyncInvocationWithFilters.<>c__DisplayClass46.<InvokeActionMethodFilterAsynchronouslyRecursive>b__3f()
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass33.<BeginInvokeActionMethodWithFilters>b__32(IAsyncResult asyncResult)
+   在 System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResult`1.CallEndDelegate(IAsyncResult asyncResult)
+   在 System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResultBase`1.End()
+   在 System.Web.Mvc.Async.AsyncResultWrapper.End[TResult](IAsyncResult asyncResult, Object tag)
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.EndInvokeActionMethodWithFilters(IAsyncResult asyncResult)
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass21.<>c__DisplayClass2b.<BeginInvokeAction>b__1c()
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass21.<BeginInvokeAction>b__1e(IAsyncResult asyncResult)
+DEBUG 2016-03-26 00:00:17,355 [131  ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is disconnected: 3b69d021-bb15-4b52-b86e-009306aab501
+DEBUG 2016-03-26 00:00:18,163 [45   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is connected: {"ConnectionId":"898fef41-b355-40fe-905d-751fa35d3f55","IpAddress":"::1","TenantId":1,"UserId":null,"ConnectTime":"2016-03-26T00:00:18.1630245+08:00","Properties":{}}
+DEBUG 2016-03-26 00:00:18,182 [45   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is registered: 898fef41-b355-40fe-905d-751fa35d3f55
+WARN  2016-03-26 00:00:18,810 [103  ] roject.Web.Controllers.AccountController - Form is not valid. Please check and fix errors.
+Abp.UI.UserFriendlyException: Form is not valid. Please check and fix errors.
+   at AlphaProject.Web.Controllers.AlphaProjectControllerBase.CheckModelState() in F:\My Study\ABP\AbpSimpleTaskProject\AlphaProject.Web\Controllers\AlphaProjectControllerBase.cs:line 22
+   at Castle.Proxies.AccountControllerProxy.CheckModelState_callback()
+   at Castle.Proxies.Invocations.AlphaProjectControllerBase_CheckModelState.InvokeMethodOnTarget()
+   at Castle.DynamicProxy.AbstractInvocation.Proceed()
+   at Abp.Domain.Uow.UnitOfWorkInterceptor.Intercept(IInvocation invocation)
+   at Castle.DynamicProxy.AbstractInvocation.Proceed()
+   at Castle.Proxies.AccountControllerProxy.CheckModelState()
+   at AlphaProject.Web.Controllers.AccountController.<Login>d__9.MoveNext() in F:\My Study\ABP\AbpSimpleTaskProject\AlphaProject.Web\Controllers\AccountController.cs:line 80
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.GetResult()
+   at System.Threading.Tasks.TaskHelpersExtensions.ThrowIfFaulted(Task task)
+   at System.Web.Mvc.Async.TaskAsyncActionDescriptor.EndExecute(IAsyncResult asyncResult)
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass37.<BeginInvokeAsynchronousActionMethod>b__36(IAsyncResult asyncResult)
+   at System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResult`1.CallEndDelegate(IAsyncResult asyncResult)
+   at System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResultBase`1.End()
+   at System.Web.Mvc.Async.AsyncResultWrapper.End[TResult](IAsyncResult asyncResult, Object tag)
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.EndInvokeActionMethod(IAsyncResult asyncResult)
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.AsyncInvocationWithFilters.<InvokeActionMethodFilterAsynchronouslyRecursive>b__3d()
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.AsyncInvocationWithFilters.<>c__DisplayClass46.<InvokeActionMethodFilterAsynchronouslyRecursive>b__3f()
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass33.<BeginInvokeActionMethodWithFilters>b__32(IAsyncResult asyncResult)
+   at System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResult`1.CallEndDelegate(IAsyncResult asyncResult)
+   at System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResultBase`1.End()
+   at System.Web.Mvc.Async.AsyncResultWrapper.End[TResult](IAsyncResult asyncResult, Object tag)
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.EndInvokeActionMethodWithFilters(IAsyncResult asyncResult)
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass21.<>c__DisplayClass2b.<BeginInvokeAction>b__1c()
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass21.<BeginInvokeAction>b__1e(IAsyncResult asyncResult)
+DEBUG 2016-03-26 00:00:25,136 [103  ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is disconnected: 898fef41-b355-40fe-905d-751fa35d3f55
+DEBUG 2016-03-26 00:00:25,805 [130  ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is connected: {"ConnectionId":"cd7ddb39-ad15-49ca-821f-0c1112d04b56","IpAddress":"::1","TenantId":1,"UserId":null,"ConnectTime":"2016-03-26T00:00:25.805067+08:00","Properties":{}}
+DEBUG 2016-03-26 00:00:25,817 [45   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is registered: cd7ddb39-ad15-49ca-821f-0c1112d04b56
+DEBUG 2016-03-26 00:01:35,634 [45   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is disconnected: cd7ddb39-ad15-49ca-821f-0c1112d04b56
+DEBUG 2016-03-26 00:01:38,860 [125  ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is connected: {"ConnectionId":"d6d72822-4ff5-4427-9481-0397bbc2b905","IpAddress":"::1","TenantId":1,"UserId":null,"ConnectTime":"2016-03-26T00:01:38.8606105+08:00","Properties":{}}
+DEBUG 2016-03-26 00:01:38,892 [129  ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is registered: d6d72822-4ff5-4427-9481-0397bbc2b905
+DEBUG 2016-03-26 00:04:59,163 [gator] Hangfire.SqlServer.CountersAggregator    - Aggregating records in 'Counter' table...
+DEBUG 2016-03-26 00:09:59,195 [gator] Hangfire.SqlServer.CountersAggregator    - Aggregating records in 'Counter' table...
+DEBUG 2016-03-26 00:14:59,224 [gator] Hangfire.SqlServer.CountersAggregator    - Aggregating records in 'Counter' table...
+DEBUG 2016-03-26 00:19:59,255 [gator] Hangfire.SqlServer.CountersAggregator    - Aggregating records in 'Counter' table...
+DEBUG 2016-03-26 00:24:59,285 [gator] Hangfire.SqlServer.CountersAggregator    - Aggregating records in 'Counter' table...
+DEBUG 2016-03-26 00:29:59,105 [nager] Hangfire.SqlServer.ExpirationManager     - Removing outdated records from table 'AggregatedCounter'...
+DEBUG 2016-03-26 00:29:59,109 [nager] Hangfire.SqlServer.ExpirationManager     - Removing outdated records from table 'Job'...
+DEBUG 2016-03-26 00:29:59,125 [nager] Hangfire.SqlServer.ExpirationManager     - Removing outdated records from table 'List'...
+DEBUG 2016-03-26 00:29:59,129 [nager] Hangfire.SqlServer.ExpirationManager     - Removing outdated records from table 'Set'...
+DEBUG 2016-03-26 00:29:59,131 [nager] Hangfire.SqlServer.ExpirationManager     - Removing outdated records from table 'Hash'...
+DEBUG 2016-03-26 00:29:59,307 [gator] Hangfire.SqlServer.CountersAggregator    - Aggregating records in 'Counter' table...
+DEBUG 2016-03-26 00:34:59,343 [gator] Hangfire.SqlServer.CountersAggregator    - Aggregating records in 'Counter' table...
+DEBUG 2016-03-26 00:39:59,351 [gator] Hangfire.SqlServer.CountersAggregator    - Aggregating records in 'Counter' table...
+DEBUG 2016-03-26 00:44:59,354 [gator] Hangfire.SqlServer.CountersAggregator    - Aggregating records in 'Counter' table...
+DEBUG 2016-03-26 00:49:59,356 [gator] Hangfire.SqlServer.CountersAggregator    - Aggregating records in 'Counter' table...
+DEBUG 2016-03-26 00:54:59,359 [gator] Hangfire.SqlServer.CountersAggregator    - Aggregating records in 'Counter' table...
+DEBUG 2016-03-26 00:59:59,362 [gator] Hangfire.SqlServer.CountersAggregator    - Aggregating records in 'Counter' table...
+DEBUG 2016-03-26 01:00:59,458 [212  ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is disconnected: d6d72822-4ff5-4427-9481-0397bbc2b905
+DEBUG 2016-04-19 22:26:46,018 [1    ] Abp.Modules.AbpModuleManager             - Loading Abp modules...
+DEBUG 2016-04-19 22:26:49,877 [1    ] Abp.Modules.AbpModuleManager             - Found 16 ABP modules in total.
+DEBUG 2016-04-19 22:26:49,884 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AutoMapper.AbpAutoMapperModule, Abp.AutoMapper, Version=0.8.2.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-04-19 22:26:49,887 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AbpKernelModule, Abp, Version=0.8.2.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-04-19 22:26:49,888 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFramework.AbpEntityFrameworkModule, Abp.EntityFramework, Version=0.8.2.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-04-19 22:26:49,888 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Hangfire.AbpHangfireModule, Abp.HangFire, Version=0.8.2.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-04-19 22:26:49,888 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Owin.AbpOwinModule, Abp.Owin, Version=0.8.2.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-04-19 22:26:49,888 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.WebApi.AbpWebApiModule, Abp.Web.Api, Version=0.8.2.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-04-19 22:26:49,888 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebModule, Abp.Web, Version=0.8.2.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-04-19 22:26:49,904 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.Mvc.AbpWebMvcModule, Abp.Web.Mvc, Version=0.8.2.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-04-19 22:26:49,905 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.SignalR.AbpWebSignalRModule, Abp.Web.SignalR, Version=0.8.2.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-04-19 22:26:49,905 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.AbpZeroCoreModule, Abp.Zero, Version=0.8.2.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-04-19 22:26:49,905 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.EntityFramework.AbpZeroEntityFrameworkModule, Abp.Zero.EntityFramework, Version=0.8.2.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-04-19 22:26:49,905 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: AlphaProject.AlphaProjectApplicationModule, AlphaProject.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-04-19 22:26:49,905 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: AlphaProject.AlphaProjectCoreModule, AlphaProject.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-04-19 22:26:49,905 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: AlphaProject.AlphaProjectDataModule, AlphaProject.EntityFramework, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-04-19 22:26:49,906 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: AlphaProject.Web.AlphaProjectWebModule, AlphaProject.Web, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-04-19 22:26:49,906 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: AlphaProject.Api.AlphaProjectWebApiModule, AlphaProject.WebApi, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-04-19 22:26:49,912 [1    ] Abp.Modules.AbpModuleManager             - 16 modules loaded.
+DEBUG 2016-04-19 22:26:50,000 [1    ] o.Configuration.LanguageManagementConfig - Converted Abp (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2016-04-19 22:26:50,000 [1    ] o.Configuration.LanguageManagementConfig - Converted AbpWeb (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2016-04-19 22:26:50,000 [1    ] o.Configuration.LanguageManagementConfig - Converted AbpZero (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2016-04-19 22:26:50,000 [1    ] o.Configuration.LanguageManagementConfig - Converted AlphaProject (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+INFO  2016-04-19 22:26:50,136 [1    ] Hangfire.SqlServer.SqlServerStorage      - Start installing Hangfire SQL objects...
+INFO  2016-04-19 22:26:50,263 [1    ] Hangfire.SqlServer.SqlServerStorage      - Hangfire SQL objects installed.
+DEBUG 2016-04-19 22:26:55,191 [1    ] Abp.Localization.LocalizationManager     - Initializing 4 localization sources.
+DEBUG 2016-04-19 22:26:55,203 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: Abp
+DEBUG 2016-04-19 22:26:55,205 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpWeb
+DEBUG 2016-04-19 22:26:55,208 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpZero
+DEBUG 2016-04-19 22:26:55,209 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AlphaProject
+DEBUG 2016-04-19 22:26:55,219 [1    ] bp.Hangfire.HangfireBackgroundJobManager - Start background worker: Abp.Hangfire.HangfireBackgroundJobManager
+INFO  2016-04-19 22:26:55,241 [1    ] Hangfire.BackgroundJobServer             - Starting Hangfire Server
+INFO  2016-04-19 22:26:55,245 [1    ] Hangfire.BackgroundJobServer             - Using job storage: 'SQL Server: (localdb)\MSSQLLocalDB@SimpleTaskProject'.
+INFO  2016-04-19 22:26:55,247 [1    ] Hangfire.BackgroundJobServer             - Using the following options for SQL Server job storage:
+INFO  2016-04-19 22:26:55,247 [1    ] Hangfire.BackgroundJobServer             -     Queue poll interval: 00:00:15.
+INFO  2016-04-19 22:26:55,247 [1    ] Hangfire.BackgroundJobServer             - Using the following options for Hangfire Server:
+INFO  2016-04-19 22:26:55,247 [1    ] Hangfire.BackgroundJobServer             -     Worker count: 20.
+INFO  2016-04-19 22:26:55,247 [1    ] Hangfire.BackgroundJobServer             -     Listening queues: 'default'.
+INFO  2016-04-19 22:26:55,247 [1    ] Hangfire.BackgroundJobServer             -     Shutdown timeout: 00:00:15.
+INFO  2016-04-19 22:26:55,248 [1    ] Hangfire.BackgroundJobServer             -     Schedule polling interval: 00:00:15.
+DEBUG 2016-04-19 22:26:55,306 [erver] ngfire.Server.BackgroundProcessingServer - Background process 'BackgroundProcessingServer' started.
+DEBUG 2016-04-19 22:26:55,891 [tbeat] Hangfire.Server.ServerHeartbeat          - Background process 'ServerHeartbeat' started.
+DEBUG 2016-04-19 22:26:55,899 [chdog] Hangfire.Server.ServerWatchdog           - Background process 'ServerWatchdog' started.
+DEBUG 2016-04-19 22:26:55,910 [nager] Hangfire.SqlServer.ExpirationManager     - Background process 'Hangfire.SqlServer.ExpirationManager' started.
+DEBUG 2016-04-19 22:26:55,915 [nager] Hangfire.SqlServer.ExpirationManager     - Removing outdated records from table 'AggregatedCounter'...
+DEBUG 2016-04-19 22:26:55,918 [gator] Hangfire.SqlServer.CountersAggregator    - Background process 'Hangfire.SqlServer.CountersAggregator' started.
+INFO  2016-04-19 22:26:55,920 [chdog] Hangfire.Server.ServerWatchdog           - 1 servers were removed due to timeout
+DEBUG 2016-04-19 22:26:55,923 [gator] Hangfire.SqlServer.CountersAggregator    - Aggregating records in 'Counter' table...
+DEBUG 2016-04-19 22:26:55,938 [809aa] Hangfire.Server.Worker                   - Background process 'Worker #bea809aa' started.
+DEBUG 2016-04-19 22:26:55,958 [9a253] Hangfire.Server.Worker                   - Background process 'Worker #37f9a253' started.
+DEBUG 2016-04-19 22:26:56,010 [63593] Hangfire.Server.Worker                   - Background process 'Worker #24363593' started.
+DEBUG 2016-04-19 22:26:56,017 [nager] Hangfire.SqlServer.ExpirationManager     - Removing outdated records from table 'Job'...
+DEBUG 2016-04-19 22:26:56,017 [14e57] Hangfire.Server.Worker                   - Background process 'Worker #17514e57' started.
+DEBUG 2016-04-19 22:26:56,034 [nager] Hangfire.SqlServer.ExpirationManager     - Removing outdated records from table 'List'...
+DEBUG 2016-04-19 22:26:56,041 [nager] Hangfire.SqlServer.ExpirationManager     - Removing outdated records from table 'Set'...
+DEBUG 2016-04-19 22:26:56,056 [nager] Hangfire.SqlServer.ExpirationManager     - Removing outdated records from table 'Hash'...
+DEBUG 2016-04-19 22:26:56,129 [a7b82] Hangfire.Server.Worker                   - Background process 'Worker #c6ba7b82' started.
+DEBUG 2016-04-19 22:26:56,140 [a9754] Hangfire.Server.Worker                   - Background process 'Worker #c49a9754' started.
+DEBUG 2016-04-19 22:26:56,173 [dfb39] Hangfire.Server.Worker                   - Background process 'Worker #d2adfb39' started.
+DEBUG 2016-04-19 22:26:56,178 [8d88d] Hangfire.Server.Worker                   - Background process 'Worker #7c88d88d' started.
+DEBUG 2016-04-19 22:26:56,180 [d7af2] Hangfire.Server.Worker                   - Background process 'Worker #a1ad7af2' started.
+DEBUG 2016-04-19 22:26:56,184 [c45a9] Hangfire.Server.Worker                   - Background process 'Worker #2c2c45a9' started.
+DEBUG 2016-04-19 22:26:56,197 [a0a83] Hangfire.Server.Worker                   - Background process 'Worker #b63a0a83' started.
+DEBUG 2016-04-19 22:26:56,203 [e3576] Hangfire.Server.Worker                   - Background process 'Worker #14ee3576' started.
+DEBUG 2016-04-19 22:26:56,213 [3b3d9] Hangfire.Server.Worker                   - Background process 'Worker #6bb3b3d9' started.
+DEBUG 2016-04-19 22:26:56,220 [e3dd6] Hangfire.Server.Worker                   - Background process 'Worker #8e7e3dd6' started.
+DEBUG 2016-04-19 22:26:56,228 [4ed6c] Hangfire.Server.Worker                   - Background process 'Worker #b7f4ed6c' started.
+DEBUG 2016-04-19 22:26:56,234 [0bde1] Hangfire.Server.Worker                   - Background process 'Worker #1720bde1' started.
+DEBUG 2016-04-19 22:26:56,263 [da9b1] Hangfire.Server.Worker                   - Background process 'Worker #df6da9b1' started.
+DEBUG 2016-04-19 22:26:56,267 [267b0] Hangfire.Server.Worker                   - Background process 'Worker #2d3267b0' started.
+DEBUG 2016-04-19 22:26:56,276 [374c9] Hangfire.Server.Worker                   - Background process 'Worker #990374c9' started.
+DEBUG 2016-04-19 22:26:56,279 [0a22f] Hangfire.Server.Worker                   - Background process 'Worker #af60a22f' started.
+DEBUG 2016-04-19 22:26:56,286 [duler] Hangfire.Server.DelayedJobScheduler      - Background process 'DelayedJobScheduler' started.
+DEBUG 2016-04-19 22:26:56,314 [duler] Hangfire.Server.RecurringJobScheduler    - Background process 'RecurringJobScheduler' started.
+DEBUG 2016-04-19 22:26:58,598 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Found 5 classes defines auto mapping attributes
+DEBUG 2016-04-19 22:26:58,598 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - AlphaProject.Sessions.Dto.TenantLoginInfoDto
+DEBUG 2016-04-19 22:26:58,874 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - AlphaProject.Sessions.Dto.UserLoginInfoDto
+DEBUG 2016-04-19 22:26:58,889 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - AlphaProject.Persons.Dtos.PersonDto
+DEBUG 2016-04-19 22:26:58,892 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - AlphaProject.MultiTenancy.Dto.TenantListDto
+DEBUG 2016-04-19 22:26:58,894 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - AlphaProject.Web.Models.Account.TenantSelectionViewModel+TenantInfo
+DEBUG 2016-04-19 22:26:58,946 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'AlphaProject.Sessions.ISessionAppService' with service name 'app/session'.
+DEBUG 2016-04-19 22:26:58,947 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'AlphaProject.Users.IUserAppService' with service name 'app/user'.
+DEBUG 2016-04-19 22:26:58,949 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'AlphaProject.Tasks.ITaskAppService' with service name 'app/task'.
+DEBUG 2016-04-19 22:26:58,950 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'AlphaProject.Roles.IRoleAppService' with service name 'app/role'.
+DEBUG 2016-04-19 22:26:58,951 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'AlphaProject.Persons.IPersonAppService' with service name 'app/person'.
+DEBUG 2016-04-19 22:26:58,953 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'AlphaProject.MultiTenancy.ITenantAppService' with service name 'app/tenant'.
+DEBUG 2016-04-19 22:27:15,391 [7    ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is connected: {"ConnectionId":"20b89763-977e-43ee-9ae8-cb7ba5f9a993","IpAddress":"::1","TenantId":1,"UserId":null,"ConnectTime":"2016-04-19T22:27:15.3620937+08:00","Properties":{}}
+DEBUG 2016-04-19 22:27:15,442 [37   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is registered: 20b89763-977e-43ee-9ae8-cb7ba5f9a993
+INFO  2016-04-19 22:28:46,838 [5    ] AlphaProject.Persons.PersonAppService    - Getting Persons for input:[GetPersonsInput > Name = George Orwell]
+INFO  2016-04-19 22:29:04,204 [44   ] AlphaProject.Persons.PersonAppService    - Getting Persons for input:[GetPersonsInput > Name = George Orwell]
+INFO  2016-04-19 22:29:47,338 [44   ] AlphaProject.Persons.PersonAppService    - Getting Persons for input:[GetPersonsInput > Name = George Orwell]
+DEBUG 2016-04-19 22:31:55,983 [gator] Hangfire.SqlServer.CountersAggregator    - Aggregating records in 'Counter' table...
+WARN  2016-04-19 22:36:39,487 [66   ] roject.Web.Controllers.AccountController - Form is not valid. Please check and fix errors.
+Abp.UI.UserFriendlyException: Form is not valid. Please check and fix errors.
+   at AlphaProject.Web.Controllers.AlphaProjectControllerBase.CheckModelState() in F:\My Study\ABP\AbpSimpleTaskProject\AlphaProject.Web\Controllers\AlphaProjectControllerBase.cs:line 22
+   at Castle.Proxies.AccountControllerProxy.CheckModelState_callback()
+   at Castle.Proxies.Invocations.AlphaProjectControllerBase_CheckModelState.InvokeMethodOnTarget()
+   at Castle.DynamicProxy.AbstractInvocation.Proceed()
+   at Abp.Domain.Uow.UnitOfWorkInterceptor.Intercept(IInvocation invocation)
+   at Castle.DynamicProxy.AbstractInvocation.Proceed()
+   at Castle.Proxies.AccountControllerProxy.CheckModelState()
+   at AlphaProject.Web.Controllers.AccountController.<Login>d__9.MoveNext() in F:\My Study\ABP\AbpSimpleTaskProject\AlphaProject.Web\Controllers\AccountController.cs:line 80
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.GetResult()
+   at System.Threading.Tasks.TaskHelpersExtensions.ThrowIfFaulted(Task task)
+   at System.Web.Mvc.Async.TaskAsyncActionDescriptor.EndExecute(IAsyncResult asyncResult)
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass37.<BeginInvokeAsynchronousActionMethod>b__36(IAsyncResult asyncResult)
+   at System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResult`1.CallEndDelegate(IAsyncResult asyncResult)
+   at System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResultBase`1.End()
+   at System.Web.Mvc.Async.AsyncResultWrapper.End[TResult](IAsyncResult asyncResult, Object tag)
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.EndInvokeActionMethod(IAsyncResult asyncResult)
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.AsyncInvocationWithFilters.<InvokeActionMethodFilterAsynchronouslyRecursive>b__3d()
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.AsyncInvocationWithFilters.<>c__DisplayClass46.<InvokeActionMethodFilterAsynchronouslyRecursive>b__3f()
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass33.<BeginInvokeActionMethodWithFilters>b__32(IAsyncResult asyncResult)
+   at System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResult`1.CallEndDelegate(IAsyncResult asyncResult)
+   at System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResultBase`1.End()
+   at System.Web.Mvc.Async.AsyncResultWrapper.End[TResult](IAsyncResult asyncResult, Object tag)
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.EndInvokeActionMethodWithFilters(IAsyncResult asyncResult)
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass21.<>c__DisplayClass2b.<BeginInvokeAction>b__1c()
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass21.<BeginInvokeAction>b__1e(IAsyncResult asyncResult)
+DEBUG 2016-04-19 22:36:55,988 [gator] Hangfire.SqlServer.CountersAggregator    - Aggregating records in 'Counter' table...
