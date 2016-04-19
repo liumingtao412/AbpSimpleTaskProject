@@ -31,8 +31,6 @@ namespace AlphaProject.Persons
         public GetPersonsOutput GetPersonByName(string name)
         {
             var persons = _personRepository.GetAll().Where(p => p.Name == name);
-            
-
             return new GetPersonsOutput
             {
                 Persons = Mapper.Map<List<PersonDto>>(persons)
